@@ -1,0 +1,80 @@
+/* Styles for auth pages */
+
+
+
+
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ background:url("https://www.veem.com/wp-content/uploads/2020/03/money-transfer-3588301_1920.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.auth-form-container {
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  height: 600px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(255, 252, 252, 0.414);
+  margin-bottom: 10%;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(211, 219, 211, 0.094);
+backdrop-filter: blur(0.1px);
+-webkit-backdrop-filter: blur(0.1px);
+border: 1px solid rgba(250, 250, 250, 0.578);
+
+}
+
+.auth-form-container h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ebe3e3;
+}
+
+.auth-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.auth-form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #b2bbb9;
+}
+
+
+
+.auth-form .form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+
+.auth-form .form-group input:focus {
+  outline: none;
+  border-color: #faf202;
+}
+
+
+.auth-form button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  background-color: goldenrod;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+  background-color: rgb(5, 64, 5);
+  color: #fff;
+}
+
+
