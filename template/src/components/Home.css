@@ -165,6 +165,7 @@ text-shadow: #eec300 0.1em 0.1em 0.1em;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: medium;
 }
 
 .see-all-button:hover {
@@ -192,7 +193,10 @@ color: #fff;
 
   .see-all-button {
     margin-top: 10px;
+    padding: 8px 16px;
+    font-size: large;
   }
+
   
 }
 
